@@ -15,7 +15,6 @@ pub mod tests {
     #[test]
     fn it_works() {
         let result = crate::add(2, 2);
-        crate::umaidashi::umaidashi();
         assert_eq!(result, 4);
     }
 }
