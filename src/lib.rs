@@ -8,6 +8,14 @@ pub mod umaidashi {
     }
 }
 
+mod front_of_house {
+    pub mod hosting {
+        pub fn add_to_waitlist() {}
+    }
+}
+
+pub use crate::front_of_house::hosting;
+
 #[cfg(test)]
 pub mod tests {
     //use super::*;
